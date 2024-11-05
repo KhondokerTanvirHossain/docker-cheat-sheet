@@ -107,5 +107,8 @@ sudo service docker restart
 # Refresh the Bash session
 source ~/.bashrc
 
+# Install Docker Compose
+sudo apt install -y docker-compose
+
 echo "Docker installation completed. Please log out and log back in to refresh the Bash session."
 ```
